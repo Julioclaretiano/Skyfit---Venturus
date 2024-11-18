@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+        font-family: Arial;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #26e1e400;
+        margin: 0;
+        padding: 20px;
+        background-image: url(https://www.konnenfitness.com.br/assets/uploads/blog/como-montar-uma-academia.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+.container {
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(102, 222, 255);
+}
+h2 {
+    color: #0e82ff;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff767;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 5pxpx solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background-color: #b7b7b7;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+li button:hover {
+    background-color: #fff700cc;
+}
